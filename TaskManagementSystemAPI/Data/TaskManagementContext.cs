@@ -4,6 +4,7 @@ using TaskManagementSystemAPI.Models;
 
 namespace TaskManagementSystemAPI.Data
 {
+    // Entity core Dbset implementation 
     public class TaskManagementContext : DbContext
     {
         public TaskManagementContext(DbContextOptions<TaskManagementContext> options)
